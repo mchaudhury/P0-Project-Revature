@@ -1,0 +1,119 @@
+<template>
+    <!-- About Section -->
+    
+        
+            <div class="shoestore-container shoestore-padding-32" id="about">
+                <h3
+                    class="shoestore-border-bottom shoestore-border-light-grey shoestore-padding-16 shoestore-bold"
+                >
+                    <button class="btn" onclick={handleClick}>About</button>
+                </h3>
+            </div>
+            <section>
+            <div>
+                <p>
+                    Revolution International Limited is a fitness footwear and
+                    clothing manufacturer. It was established in 2000 in United
+                    States of America. From 2010 until 2015, the company was
+                    privately held. The company was made public on 2016 and now
+                    it is traded in NASDAQ and NYSE.The company's global
+                    headquarters are now located in Seattle, Washington, in the
+                    Seaport District, with regional offices in Toronto,
+                    Montreal, Beijing, and Monterrey. Revolution is a one of a
+                    kind footwear manufactuirng that not only manufactures
+                    different casual and formal footwear, but also many diferent
+                    sportswear as well. We are a company that is at the
+                    forefront of providing stylish shoes without sacrificing
+                    comfort. Our love and apssion to delivering quality products
+                    is what sets us apart, hence our motto "Your Comfort, Your
+                    Style, Our Love, Our Passion, This is Revolution."
+                </p>
+            </div>
+            <template if:true={areDetailsVisible}>
+            <div class="shoestore-row-padding shoestore-grayscale">
+                <div class="shoestore-col l3 m6 shoestore-margin-bottom">
+                    <img
+                        src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2VvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                        alt="John"
+                        style="width: 100%"
+                    />
+                    <h3>Adam Smith</h3>
+                    <p class="shoestore-opacity">CEO & Founder</p>
+                    <p>
+                        Adam Smith is the forunder ans CEO of Revolution. He has
+                        a MBA from Harvard Business School.
+                    </p>
+                    <p>
+                        <button
+                            class="shoestore-button shoestore-light-grey shoestore-block shoestore-bold"
+                        >
+                            Follow
+                        </button>
+                    </p>
+                </div>
+                <div class="shoestore-col l3 m6 shoestore-margin-bottom">
+                    <img
+                        src="https://images.unsplash.com/photo-1637684666772-1f215bfd0f5d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2VvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                        alt="Jane"
+                        style="width: 100%"
+                    />
+                    <h3>Ali Ibrahim Mane</h3>
+                    <p class="shoestore-opacity">CTO</p>
+                    <p>
+                        Ali Ibrahim Mane is the Chief Technology Officer. He has
+                        a Msc in Computer Sciecne from Stanford.
+                    </p>
+                    <p>
+                        <button
+                            class="shoestore-button shoestore-light-grey shoestore-block shoestore-bold"
+                        >
+                            Follow
+                        </button>
+                    </p>
+                </div>
+                <div class="shoestore-col l3 m6 shoestore-margin-bottom">
+                    <img
+                        src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y2VvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                        alt="Mike"
+                        style="width: 100%"
+                    />
+                    <h3>Jack Anderson</h3>
+                    <p class="shoestore-opacity">Vice President</p>
+                    <p>
+                        Jack Anderson is the Vice President of Revolution. He
+                        holds a degree in Finance from University of New York.
+                    </p>
+                    <p>
+                        <button
+                            class="shoestore-button shoestore-light-grey shoestore-block shoestore-bold"
+                        >
+                            Follow
+                        </button>
+                    </p>
+                </div>
+                <div class="shoestore-col l3 m6 shoestore-margin-bottom">
+                    <img
+                        src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2VvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                        alt="Dan"
+                        style="width: 100%"
+                    />
+                    <h3>Jane Gesing</h3>
+                    <p class="shoestore-opacity">CMO</p>
+                    <p>
+                        Jane Gesing is the Chief Marketing officer. She holds a
+                        degree in Marketing from Boston University.
+                    </p>
+                    <p>
+                        <button
+                            class="shoestore-button shoestore-light-grey shoestore-block shoestore-bold"
+                        >
+                            Follow
+                        </button>
+                    </p>
+                </div>
+            </div>
+        </template>
+        </section>
+        
+    
+</template>

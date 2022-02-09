@@ -1,0 +1,49 @@
+<template>
+    <div class="shoestore-container padding-32" id="contact">
+        <h3
+            class="shoestore-border-bottom shoestoreborder-light-grey shoestore-padding-16"
+        >
+            <button class="btn" onclick={handleClick}>Contact</button>
+        </h3>
+        <template if:true={areDetailsVisible}>
+            <p>Lets get in touch and talk about your enquiries.</p>
+            <form action="/action_page.php" target="_blank">
+                <input
+                    class="shoestore-input shoestore-border"
+                    type="text"
+                    placeholder="Name"
+                    required
+                    name="Name"
+                />
+                <input
+                    class="shoestore-input shoestore-section shoestore-border"
+                    type="text"
+                    placeholder="Email"
+                    required
+                    name="Email"
+                />
+                <input
+                    class="shoestore-input shoestore-section shoestore-border"
+                    type="text"
+                    placeholder="Subject"
+                    required
+                    name="Subject"
+                />
+                <input
+                    class="shoestore-input shoestore-section shoestore-border"
+                    type="text"
+                    placeholder="Comment"
+                    required
+                    name="Comment"
+                />
+                <button
+                    class="shoestore-button shoestore-black shoestore-section"
+                    type="submit"
+                >
+                    SEND MESSAGE
+                </button>
+            </form>
+        </template>
+        <template if:false={areDetailsVisible}> Please Click Contact to send us a message </template>
+    </div>
+</template>

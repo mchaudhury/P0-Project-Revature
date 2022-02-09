@@ -1,0 +1,93 @@
+* {
+    box-sizing: inherit;
+
+}
+
+h3 {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.shoestore-bold{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.shoestore-border-light-grey {
+    border-color: black !important;
+}
+
+.shoestore-border-bottom {
+    border-bottom: 1px solid #ccc !important;
+}
+
+.shoestore-padding-16 {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+}
+
+.shoestore-row-padding {
+    background-color: white;
+    
+
+}
+
+.shoestore-grayscale {
+    filter: grayscale(45%);
+    
+}
+
+.shoestore-col{
+    float: right;
+    width: 24%;
+    
+}
+
+.shoestore-row-padding>.shoestore-col {
+    padding: 5px 10px;    
+    padding-left: 1px;
+    padding-right: 15px;
+}
+
+.shoestore-margin-bottom {
+    margin-bottom: 16px!important;
+}
+
+.shoestore-opacity {
+    opacity: 0.60;
+}
+
+.shoestore-light-grey {
+    color: #000!important;
+    background-color: #f1f1f1!important;
+}
+
+.shoestore-block {
+    display: block;
+    width: 93%;
+}
+
+.shoestore-button {
+    user-select: none;
+    font-weight: bold;
+    
+}
+
+.shoestore-button {
+    border: none;
+    
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.shoestore-container{
+    color: black !important;
+}
